@@ -1,5 +1,6 @@
 package com.example.hms.Food;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,7 +17,7 @@ public class FoodInsert extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_insert);
 
-        foodView = (Button)findViewById(R.id.btnViewMeals);
+        foodView = (Button) findViewById(R.id.btnViewMeals);
         foodView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,4 +25,10 @@ public class FoodInsert extends AppCompatActivity {
             }
         });
     }
-}
+        public void ShowMeals() {
+
+            Intent intent = new Intent(this, ShowMeals.class);
+            startActivity(intent);
+        }
+    }
+

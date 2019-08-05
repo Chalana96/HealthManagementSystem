@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.hms.Drinks.DrinksInsert;
 import com.example.hms.Food.FoodInsert;
 import com.example.hms.R;
 import com.example.hms.WeightAndMesearmunt.WeightMeas;
@@ -44,7 +45,7 @@ public class Front extends AppCompatActivity {
         drinks.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                    DrinksInsert();
             }
         });
     }
@@ -53,6 +54,12 @@ public class Front extends AppCompatActivity {
     public void FoodInsert() {
 
         Intent intent = new Intent(this, FoodInsert.class);
+        startActivity(intent);
+    }
+
+    public void DrinksInsert() {
+
+        Intent intent = new Intent(this, DrinksInsert.class);
         startActivity(intent);
     }
 

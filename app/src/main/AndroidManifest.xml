@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Drinks.DrinksUpdate"></activity>
+        <activity android:name=".Drinks.DrinksView" />
+        <activity android:name=".Drinks.DrinksInsert" />
         <activity android:name=".CommonParts.SignIn" />
         <activity android:name=".CommonParts.Front" />
         <activity android:name=".WeightAndMesearmunt.ShowData" />
@@ -23,7 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Drinks.InsertDrinks" />
         <activity android:name=".Food.ShowMeals" />
         <activity android:name=".Food.UpdateFood"></activity>
     </application>
