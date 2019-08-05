@@ -13,16 +13,17 @@
         <activity android:name=".CommonParts.Front" />
         <activity android:name=".WeightAndMesearmunt.ShowData" />
         <activity android:name=".WeightAndMesearmunt.WeightMeas" />
-        <activity android:name=".CommonParts.FirstPage">
+        <activity android:name=".CommonParts.FirstPage" >
+        </activity>
+        <activity android:name=".Food.FoodInsert" />
+        <activity android:name=".WeightAndMesearmunt.Update" />
+        <activity android:name=".CommonParts.Welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Food.FoodInsert" />
-        <activity android:name=".WeightAndMesearmunt.Update" />
-        <activity android:name=".CommonParts.Welcome"></activity>
     </application>
 
 </manifest>

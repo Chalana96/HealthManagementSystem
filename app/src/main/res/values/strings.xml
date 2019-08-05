@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">HMS</string>
+    <string name="drinks">Drinks</string>
+    <string name="foods">Foods</string>
+    <string name="weight_and_measurements">Weight and Measurements</string>
+    <string name="weight_and_body_measurements">Weight and Body Measurements</string>
+    <string name="waist">Waist</string>
+    <string name="weight">Weight</string>
+    <string name="height_ex_135cm">Height (Ex:135cm)</string>
+    <string name="upload_body_photo">Upload Body Photo</string>
+    <string name="x">x</string>
+
 </resources>

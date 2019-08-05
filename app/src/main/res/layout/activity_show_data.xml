@@ -319,7 +319,7 @@
         app:layout_constraintVertical_bias="0.927" />
 
     <Button
-        android:id="@+id/btnWeightShow"
+        android:id="@+id/btnShow"
         android:layout_width="112dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
@@ -337,7 +337,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/btnWeightUpdate"
+        android:id="@+id/btnWeightUpd"
         android:layout_width="112dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
