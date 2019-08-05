@@ -66,9 +66,9 @@
     <Button
         android:id="@+id/btndrinks"
         style="@android:style/Widget.DeviceDefault.Button.Inset"
-        android:layout_width="269dp"
+        android:layout_width="205dp"
 
-        android:layout_height="56dp"
+        android:layout_height="78dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
