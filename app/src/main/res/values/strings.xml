@@ -9,5 +9,9 @@
     <string name="height_ex_135cm">Height (Ex:135cm)</string>
     <string name="upload_body_photo">Upload Body Photo</string>
     <string name="x">x</string>
-
+    <array name="Meals">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </array>
 </resources>

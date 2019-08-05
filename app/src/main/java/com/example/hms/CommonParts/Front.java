@@ -15,6 +15,7 @@ public class Front extends AppCompatActivity {
 
     private Button foods;
     private Button weight;
+    private Button drinks;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +36,15 @@ public class Front extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 WeightMeas();
+            }
+        });
+
+        //drinks
+        drinks = (Button)findViewById(R.id.btnwater);
+        drinks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
             }
         });
     }

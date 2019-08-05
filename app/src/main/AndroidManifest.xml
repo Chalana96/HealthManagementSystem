@@ -13,8 +13,7 @@
         <activity android:name=".CommonParts.Front" />
         <activity android:name=".WeightAndMesearmunt.ShowData" />
         <activity android:name=".WeightAndMesearmunt.WeightMeas" />
-        <activity android:name=".CommonParts.FirstPage" >
-        </activity>
+        <activity android:name=".CommonParts.FirstPage" />
         <activity android:name=".Food.FoodInsert" />
         <activity android:name=".WeightAndMesearmunt.Update" />
         <activity android:name=".CommonParts.Welcome">
@@ -24,6 +23,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Drinks.InsertDrinks" />
+        <activity android:name=".Food.ShowMeals" />
+        <activity android:name=".Food.UpdateFood"></activity>
     </application>
 
 </manifest>
