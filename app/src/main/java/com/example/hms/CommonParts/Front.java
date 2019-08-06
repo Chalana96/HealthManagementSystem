@@ -17,6 +17,7 @@ public class Front extends AppCompatActivity {
     private Button foods;
     private Button weight;
     private Button drinks;
+    private  Button diert;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +49,15 @@ public class Front extends AppCompatActivity {
                     DrinksInsert();
             }
         });
+
+        //diert
+        diert = (Button) findViewById(R.id.btnDiert);
+        diert.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DiertPlan();
+            }
+        });
     }
 
     //Foods
@@ -56,17 +66,24 @@ public class Front extends AppCompatActivity {
         Intent intent = new Intent(this, FoodInsert.class);
         startActivity(intent);
     }
-
+    //Drinks
     public void DrinksInsert() {
 
         Intent intent = new Intent(this, DrinksInsert.class);
         startActivity(intent);
     }
 
-    //Weight and Body Measurements
+    //WBody Measurements
     public void WeightMeas() {
 
         Intent intent = new Intent(this, WeightMeas.class);
+        startActivity(intent);
+    }
+
+    //Diert
+    public void DiertPlan() {
+
+        Intent intent = new Intent(this, com.example.hms.CommonParts.DiertPlan.class);
         startActivity(intent);
     }
 

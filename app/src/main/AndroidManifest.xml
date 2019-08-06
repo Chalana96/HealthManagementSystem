@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Drinks.DrinksUpdate"></activity>
+        <activity android:name=".Drinks.DrinksUpdate" />
         <activity android:name=".Drinks.DrinksView" />
         <activity android:name=".Drinks.DrinksInsert" />
         <activity android:name=".CommonParts.SignIn" />
@@ -27,7 +27,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Food.ShowMeals" />
-        <activity android:name=".Food.UpdateFood"></activity>
+        <activity android:name=".Food.UpdateFood" />
+        <activity android:name=".CommonParts.DiertPlan"></activity>
     </application>
 
 </manifest>

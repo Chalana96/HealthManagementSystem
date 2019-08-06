@@ -4,26 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WeightAndMesearmunt.ImageView">
+    tools:context=".WeightAndMesearmunt.ImageView"
+    tools:layout_editor_absoluteY="81dp">
 
 
     tools:context=".WeightAndMeasurment.ImageView">
 
     <Button
         android:id="@+id/btnChooseImage"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="116dp"
+        android:layout_height="48dp"
         android:layout_alignBaseline="@+id/editText"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="28dp"
+        android:background="@color/colorAccent"
         android:text="Choose File"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
-        app:layout_constraintEnd_toStartOf="@+id/editText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 
     <EditText
@@ -32,41 +30,28 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="57dp"
         android:ems="10"
         android:hint="Date"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/image_view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnChooseImage"
-        app:layout_constraintTop_toBottomOf="@+id/btnChooseImage" />
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="18dp" />
 
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="360dp"
-        android:layout_height="0dp"
+        android:layout_height="324dp"
         android:layout_above="@+id/progesBar"
         android:layout_below="@+id/editText"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="107dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="81dp" />
 
     <android.support.v4.widget.ContentLoadingProgressBar
         android:id="@+id/progesBar"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-        android:layout_width="0dp"
+        android:layout_width="384dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btnChooseImage" />
+        android:layout_alignParentBottom="true" />
 
     <Button
         android:id="@+id/btnUpload"
@@ -75,17 +60,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccent"
         android:text="Upload"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.203"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.982" />
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="447dp" />
 
     <TextView
         android:id="@+id/tvShowUpload"
@@ -94,19 +72,12 @@
         android:layout_below="@+id/btnUpload"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:gravity="center"
         android:text="Show Upload"
+        android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.821"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.982" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="447dp" />
 
 </android.support.constraint.ConstraintLayout>

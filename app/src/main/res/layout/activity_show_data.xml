@@ -157,13 +157,13 @@
         android:layout_width="384dp"
         android:layout_height="wrap_content"
         android:fontFamily="serif-monospace"
-        android:text="Show Body Weight/Height and Body Measurements"
+        android:text="Show  Body Measurements"
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="1dp" />
+        tools:layout_editor_absoluteY="29dp" />
 
     <LinearLayout
         android:id="@+id/linearLayout"

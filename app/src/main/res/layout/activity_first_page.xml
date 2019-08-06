@@ -49,6 +49,7 @@
         android:layout_height="46dp"
         android:layout_marginTop="161dp"
         android:layout_marginBottom="162dp"
+        android:background="@color/colorAccent"
         android:text="Login"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -63,6 +64,7 @@
         android:layout_height="46dp"
         android:layout_marginTop="80dp"
         android:layout_marginBottom="82dp"
+        android:background="@color/colorAccent"
         android:text="Sign In"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,10 +86,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/etpassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.579"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintVertical_bias="0.984" />
 
     <TextView
         android:id="@+id/atmpts"

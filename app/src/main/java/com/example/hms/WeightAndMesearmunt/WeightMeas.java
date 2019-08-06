@@ -6,7 +6,10 @@ import android.os.Bundle;
 import android.view.SoundEffectConstants;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
+import com.example.hms.CommonParts.FirstPage;
+import com.example.hms.CommonParts.Front;
 import com.example.hms.R;
 
 public class WeightMeas extends AppCompatActivity {
@@ -61,5 +64,7 @@ public class WeightMeas extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+
 }
 
