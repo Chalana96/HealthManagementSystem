@@ -14,4 +14,10 @@
         <item>Lunch</item>
         <item>Dinner</item>
     </array>
+    <array name="Drinks">
+        <item>Water</item>
+        <item>SoftDrinks</item>
+        <item>FruitJuice</item>
+        <item>Other</item>
+    </array>
 </resources>

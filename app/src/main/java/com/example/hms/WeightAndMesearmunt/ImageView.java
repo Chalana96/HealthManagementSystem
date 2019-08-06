@@ -15,28 +15,11 @@ import com.example.hms.R;
 
 public class ImageView extends AppCompatActivity {
 
-private Button image;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_view);
 
-
-        image = (Button) findViewById(R.id.btnImage);
-        image.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ImageView();
-            }
-        });
-
-    }
-
-
-    public void ImageView() {
-
-        Intent intent = new Intent(this, com.example.hms.WeightAndMesearmunt.ImageView.class);
-        startActivity(intent);
     }
     }
 
