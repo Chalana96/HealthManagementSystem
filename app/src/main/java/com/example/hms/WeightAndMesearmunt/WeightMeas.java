@@ -53,7 +53,7 @@ public class WeightMeas extends AppCompatActivity {
 
     }
     public void ShowData() {
-
+        Toast.makeText(WeightMeas.this,"Data Inserted",Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, ShowData.class);
         startActivity(intent);
     }
