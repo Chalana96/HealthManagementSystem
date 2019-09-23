@@ -65,13 +65,13 @@ public class FirstPage extends AppCompatActivity {
 
         public void validate(String userName, String userPassword){
 
-            if((userName.equals ("Admin")) && (userPassword.equals("1234"))){
+            if((userName.equals ("admin")) && (userPassword.equals("12345"))){
                 Intent intent = new Intent(FirstPage.this, Front.class);
                 startActivity(intent);
-                Toast.makeText(FirstPage.this,"Login Successfully!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(FirstPage.this,"Login Successfully..!",Toast.LENGTH_SHORT).show();
             }
             else {
-                Toast.makeText(FirstPage.this,"UserName or Password Incorrect",Toast.LENGTH_SHORT).show();
+                Toast.makeText(FirstPage.this,"UserName or Password Incorrect..!",Toast.LENGTH_SHORT).show();
                 counter--;
                 info.setText("Remaining no of attempts  :  " + String.valueOf(counter));
                 if (counter == 0) {

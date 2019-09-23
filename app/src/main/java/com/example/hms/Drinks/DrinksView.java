@@ -11,7 +11,7 @@ import com.example.hms.R;
 
 public class DrinksView extends AppCompatActivity {
 
-    private Button update;
+    private Button updateD;
     private Button home;
 
     @Override
@@ -19,8 +19,8 @@ public class DrinksView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drinks_view);
 
-        update = (Button)findViewById(R.id.button2);
-        update.setOnClickListener(new View.OnClickListener() {
+        updateD = (Button)findViewById(R.id.button2);
+        updateD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 DrinksUpdate();
